@@ -31,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/abril_fatface"
+                android:textColor="@color/black"
                 android:text="@string/judul_film"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -40,6 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:textColor="@color/black"
                 android:fontFamily="@font/alegreya"
                 android:maxLines="4"
                 android:text="@string/sinopsis_film"
