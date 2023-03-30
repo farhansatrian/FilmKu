@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FilmKu</string>
+    <string name="judul_film">Judul Film</string>
+    <string name="sinopsis_film">Sinopsis Film</string>
+    <string name="filmku">FilmKu</string>
+    <string name="list">List</string>
 </resources>
