@@ -40,8 +40,8 @@ class MainActivity : AppCompatActivity() {
                 tambahFilm(inputJudul,inputSinopsis)
                 val intent = Intent(this, ListFilm::class.java)
                 startActivity(intent)
-                binding.inputJudul.text.clear()
-                binding.inputSinopsis.text.clear()
+                binding.inputJudul.setText("")
+                binding.inputSinopsis.setText("")
             }
 
         }

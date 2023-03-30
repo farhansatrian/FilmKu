@@ -30,18 +30,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textStyle="bold"
+                android:fontFamily="@font/abril_fatface"
                 android:text="@string/judul_film"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/sinopsisFilm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:text="@string/sinopsis_film"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/alegreya"
                 android:maxLines="4"
-                android:layout_marginTop="10dp"/>
+                android:text="@string/sinopsis_film"
+                android:textSize="12sp" />
 
         </LinearLayout>
 
